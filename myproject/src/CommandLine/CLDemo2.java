@@ -1,4 +1,5 @@
 package CommandLine;
+
 class CLDemo2 {
 	public static void main(String args[]) {
 		String s1 = args[0];

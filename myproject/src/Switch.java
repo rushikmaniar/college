@@ -1,15 +1,13 @@
 import java.util.*;
 
 class Switch {
-	static String[] units = new String[] { "Zero", "one", "two", "three",
-			"four", "five", "six", "seven", "eight", "nine" };
-	static String[] tens = new String[] { "", "eleven", "tweleve", "thirteen",
-			"fourteen", "fifteen", "sixteen", "seventeen", "eighteen",
-			"nineteen" };
-	static String[] tens1 = new String[] { "", "Ten", "twenty", "thirty",
-			"fourty", "fifty", "sixty", "seventy", "eighty", "ninety" };
-	static String[] large = new String[] { "Hundred", "Thousand", "Lakh",
-			"Crore" };
+	static String[] units = new String[] { "Zero", "one", "two", "three", "four", "five", "six", "seven", "eight",
+			"nine" };
+	static String[] tens = new String[] { "", "eleven", "tweleve", "thirteen", "fourteen", "fifteen", "sixteen",
+			"seventeen", "eighteen", "nineteen" };
+	static String[] tens1 = new String[] { "", "Ten", "twenty", "thirty", "fourty", "fifty", "sixty", "seventy",
+			"eighty", "ninety" };
+	static String[] large = new String[] { "Hundred", "Thousand", "Lakh", "Crore" };
 	static int input;
 
 	public static void main(String args[]) {

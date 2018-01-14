@@ -1,4 +1,5 @@
 package Simple10;
+
 //reverse number 123 to 321
 import java.util.*;
 

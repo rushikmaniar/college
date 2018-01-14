@@ -1,4 +1,5 @@
 package Simple10;
+
 //W.A.P. to calculate simple interest and compound interest. 
 //(Formula for compound interest A=P(1+R/100)^N )
 import java.util.*;

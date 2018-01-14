@@ -1,4 +1,5 @@
 package Simple10;
+
 //Write a program that can convert degrees Fahrenheit to degrees Celsius.
 //C= (F-32) * 5 / 9
 import java.util.*;

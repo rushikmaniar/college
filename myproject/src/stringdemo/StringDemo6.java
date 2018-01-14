@@ -1,4 +1,5 @@
 package stringdemo;
+
 import java.util.*;
 
 class StringDemo6 {

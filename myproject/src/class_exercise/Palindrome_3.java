@@ -1,4 +1,5 @@
 package class_exercise;
+
 //Write Java program to check if a number is palindrome in Java
 import java.util.*;
 

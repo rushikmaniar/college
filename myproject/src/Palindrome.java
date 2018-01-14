@@ -1,5 +1,7 @@
+
 //Write Java program to check if a number is palindrome in Java
 import java.util.*;
+
 class Palindrome {
 	public static void main(String args[]) {
 		int a;
@@ -9,16 +11,17 @@ class Palindrome {
 		Palindrome1 p1 = new Palindrome1();
 		p1.CheckPalindrome(a);
 		sc.close();
-		
+
 	}
 }
-class Palindrome1{
-	
-	public void CheckPalindrome(int a){
-		int i,r;
+
+class Palindrome1 {
+
+	public void CheckPalindrome(int a) {
+		int i, r;
 		double sum = 0;
 		int digit = 0;
-		
+
 		i = a;
 		while (i != 0) {
 			r = i % 10;
@@ -37,13 +40,12 @@ class Palindrome1{
 			i = i / 10;
 			j--;
 		}
-		//System.out.println(sum);
-		if(a == sum){
+		// System.out.println(sum);
+		if (a == sum) {
 			System.out.println("Number is Palindrome");
-		}
-		else{
+		} else {
 			System.out.println("Number is Not Palindrome");
 		}
-		
+
 	}
 }

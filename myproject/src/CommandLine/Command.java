@@ -1,4 +1,5 @@
 package CommandLine;
+
 public class Command {
 	public static void main(String args[]) {
 		int from = Integer.parseInt(args[0]);

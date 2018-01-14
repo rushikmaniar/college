@@ -1,4 +1,5 @@
 package class_exercise;
+
 //How to find if a number is power of 2 in Java?
 import java.util.*;
 

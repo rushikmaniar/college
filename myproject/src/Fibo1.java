@@ -1,3 +1,4 @@
+
 //Fibonacci Series
 import java.util.*;
 
@@ -12,8 +13,8 @@ class Fibo1 {
 		i = 0;
 		System.out.println("Printing Fibonnaci Series");
 		/*
-		 * while(i < a){ new_current = prev + current; System.out.print(" " +
-		 * current); prev = current; current = new_current;
+		 * while(i < a){ new_current = prev + current; System.out.print(" " + current);
+		 * prev = current; current = new_current;
 		 * 
 		 * i++;
 		 * 

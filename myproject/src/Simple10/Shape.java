@@ -1,4 +1,5 @@
 package Simple10;
+
 import java.util.*;
 
 class Shape {
@@ -8,8 +9,7 @@ class Shape {
 		Scanner sc = new Scanner(System.in);
 		while (c != 5) {
 			System.out.println("\n\nArea Of Shape");
-			System.out
-					.println("Circle:0\nSquare:1\nRectangle:2\nCylinder:3\nTriangle:4\nExit:5\n");
+			System.out.println("Circle:0\nSquare:1\nRectangle:2\nCylinder:3\nTriangle:4\nExit:5\n");
 			System.out.print("Enter Your Choice :");
 			c = sc.nextInt();
 			switch (c) {
@@ -64,8 +64,7 @@ class Shape {
 				System.out.print("Invalid Input");
 				break;
 			}
-			System.out
-					.print("\n---------------------------------------------\n");
+			System.out.print("\n---------------------------------------------\n");
 		}
 	}
 }

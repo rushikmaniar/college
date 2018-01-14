@@ -1,8 +1,9 @@
 package CommandLine;
+
 class CalcDemo1 {
 	public static void main(String args[]) {
-		//CalcDemo1 c1 = new CalcDemo1();
-		double ans=0;
+		// CalcDemo1 c1 = new CalcDemo1();
+		double ans = 0;
 
 		double a = Double.parseDouble(args[0]);
 		char[] c = args[1].toCharArray();

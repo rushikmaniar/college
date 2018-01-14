@@ -1,3 +1,4 @@
+
 //Create class named MathDemo. 
 //Calculate & print area of circle. Use Math class to get value of PI
 import java.util.*;
@@ -12,5 +13,5 @@ class MathDemo {
 		System.out.println("Area of Circle for above radius : " + area);
 		sc.close();
 	}
-	
+
 }

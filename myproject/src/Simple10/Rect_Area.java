@@ -1,4 +1,5 @@
 package Simple10;
+
 //8. Write a C Program to find area of a rectangle (Hint: A = l*b)
 //import java.util.*;
 class Rect_Area {

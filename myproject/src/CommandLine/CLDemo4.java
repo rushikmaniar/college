@@ -1,4 +1,5 @@
 package CommandLine;
+
 import java.util.*;
 
 class CLDemo4 {

@@ -4,12 +4,12 @@ package class_exercise;
 
 class Prime_range_13 {
 	public static void main(String[] args) {
-		//Scanner sc = new Scanner(System.in);
+		// Scanner sc = new Scanner(System.in);
 		int from, to, x = 0;
-		//System.out.print("Enter Range for getting prime numbers : ");
-		//from = sc.nextInt();
-		//to = sc.nextInt();
-		
+		// System.out.print("Enter Range for getting prime numbers : ");
+		// from = sc.nextInt();
+		// to = sc.nextInt();
+
 		from = Integer.parseInt(args[0]);
 		to = Integer.parseInt(args[1]);
 		System.out.print("prime numbers in given range: ");
@@ -20,7 +20,7 @@ class Prime_range_13 {
 
 				int t = Math.abs(i);
 
-				for (int j = 2; j < (t / 2)+1; j++) {
+				for (int j = 2; j < (t / 2) + 1; j++) {
 					if (i % j == 0) {
 						x = 1;
 					}

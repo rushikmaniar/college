@@ -1,4 +1,5 @@
 package stringdemo;
+
 //import java.util.*;
 class StringDemo1 {
 	public static void main(String args[]) {

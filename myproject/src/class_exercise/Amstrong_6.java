@@ -1,4 +1,5 @@
 package class_exercise;
+
 //6. Write Java program to check if a number is Armstrong number or not?
 //(input 153 output true, 123 output false)
 //reverse number 123 to 321

@@ -67,14 +67,14 @@ class Shape {
 }
 
 class TwoDShape {
-	
+
 	double l, b, h, area, pi = Math.PI, r;
 
 	public double Square(double l) {
 		area = l * l;
 		return area;
 	}
-	
+
 	public double Rectangle(double l, double b) {
 		area = l * b;
 		return area;

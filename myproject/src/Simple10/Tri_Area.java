@@ -1,4 +1,5 @@
 package Simple10;
+
 //9. Write a C Program to find area of a triangle (Hint: A = ½ *h*b)
 import java.util.*;
 

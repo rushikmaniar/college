@@ -9,8 +9,8 @@ class CricketDemo_15 {
 		double count = 0;
 		int[][] run = new int[4][4];
 		int[] total = { 0, 0, 0, 0 };
-		String[] heading = { "Name", "Match1", "Match2", "Match3", "Total" };
-		
+		//String[] heading = { "Name", "Match1", "Match2", "Match3", "Total" };
+		String[] heading = { "Name", "M1", "M2", "M3", "Total" };
 		
 		// scan names
 		for (int i = 0; i < args.length - 1; i += 4) {
@@ -55,16 +55,16 @@ class CricketDemo_15 {
 		 * heading[(int)count++]; }
 		 */
 		for (int i = 0; i < heading.length; i++) {
-			System.out.print(heading[i] + " ");
+			System.out.print(heading[i] + "  ");
 		}
 		System.out.println();
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
 				if (j == 0) {
-					System.out.print(names[i] +" ");
-					System.out.print(run[i][j] + " ");
+					System.out.print(names[i] +"  ");
+					System.out.print(run[i][j] + "  ");
 				} else {
-					System.out.print(run[i][j] + " ");
+					System.out.print(run[i][j] + "  ");
 				}
 			}
 			System.out.println();

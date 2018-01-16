@@ -7,8 +7,8 @@ class CricketDemo_15 {
 
 		String[] names = new String[5];
 		double count = 0;
-		double[][] run = new double[4][4];
-		double[] total = { 0.0, 0.0, 0.0, 0.0 };
+		int[][] run = new int[4][4];
+		int[] total = { 0, 0, 0, 0 };
 		String[] heading = { "Name", "Match1", "Match2", "Match3", "Total" };
 		
 		
@@ -20,7 +20,7 @@ class CricketDemo_15 {
 		// scan runs
 		count = 0;
 		for (int i = 0; i < 4; i++) {
-			double sum = 0;
+			int sum = 0;
 			for (int j = 0; j < 4; j++) {
 				if (count % 4.0 == 0.00) {
 					count++;
@@ -30,7 +30,7 @@ class CricketDemo_15 {
 						run[i][j] = sum;
 						total[j] = total[j] + run[i][j];
 					} else {
-						run[i][j] = Double.parseDouble(args[(int) count++]);
+						run[i][j] = Integer.parseInt(args[(int) count++]);
 						// row total
 						sum = sum + run[i][j];
 						// for the final total

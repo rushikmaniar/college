@@ -8,19 +8,21 @@ class CricketDemo_15 {
 
 		String[] names = new String[5];
 		double count = 0;
-		double[][] run = new double[4][4];
-		double[] total = { 0.0, 0.0, 0.0, 0.0 };
-		String[] heading = { "Name", "Match1", "Match2", "Match3", "Total" };
+		
+		int[][] run = new int[4][4];
+		int[] total = { 0, 0, 0, 0 };
+		// String[] heading = { "Name", "Match1", "Match2", "Match3", "Total" };
+		String[] heading = { "Name", "M1", "M2", "M3", "Total" };
 
 		// scan names
-		for (int i = 0; i < args.length - 1; i += 4) {
+for (int i = 0; i < args.length - 1; i += 4) {
 			names[(int) count++] = args[i];
 		}
 		names[4] = args[args.length - 1];
 		// scan runs
 		count = 0;
 		for (int i = 0; i < 4; i++) {
-			double sum = 0;
+			int sum = 0;
 			for (int j = 0; j < 4; j++) {
 				if (count % 4.0 == 0.00) {
 					count++;
@@ -30,7 +32,7 @@ class CricketDemo_15 {
 						run[i][j] = sum;
 						total[j] = total[j] + run[i][j];
 					} else {
-						run[i][j] = Double.parseDouble(args[(int) count++]);
+						run[i][j] = Integer.parseInt(args[(int) count++]);
 						// row total
 						sum = sum + run[i][j];
 						// for the final total
@@ -39,6 +41,7 @@ class CricketDemo_15 {
 				}
 			}
 		}
+	
 
 		/*
 		 * for (String name : names) { System.out.print(" " + name); }
@@ -55,16 +58,16 @@ class CricketDemo_15 {
 		 * heading[(int)count++]; }
 		 */
 		for (int i = 0; i < heading.length; i++) {
-			System.out.print(heading[i] + " ");
+			System.out.print(heading[i] + "  ");
 		}
 		System.out.println();
 		for (int i = 0; i < 4; i++) {
 			for (int j = 0; j < 4; j++) {
 				if (j == 0) {
-					System.out.print(names[i] + " ");
-					System.out.print(run[i][j] + " ");
+					System.out.print(names[i] + "  ");
+					System.out.print(run[i][j] + "  ");
 				} else {
-					System.out.print(run[i][j] + " ");
+					System.out.print(run[i][j] + "  ");
 				}
 			}
 			System.out.println();
